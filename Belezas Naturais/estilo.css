@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+
+header{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    
+}
+.navbar ul li a {
+    color: aliceblue;
+    border-radius: 10px ;
+    padding: 5px;
+    
+}
+.navbar ul li a  {
+    transition: 0.5s;
+
+
+}
+.navbar ul li  :hover{
+    background-color: gray;
+    
+
+
+}
+
+.navbar ul li {
+    width: 300px;
+
+}
+.container{
+
+    margin: 0 200px;
+    height: 550px;
+
+}
+.container-montes {
+    height: 1300px;
+    margin: 0 200px;
+}    
+
+.video{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-montes section img {
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+.container-montes section p {
+    text-align: justify;
+    padding:   5px;
+   
+}
+
+.container-lago {
+    height: 1300px;
+    margin: 0 200px;
+}  
+
+.container-lago section img {
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+.container-lago section p {
+    text-align: justify;
+    padding:   5px;
+}
+
+.container-cataratas {
+    height: 1300px;
+    margin: 0 200px;
+}
+
+.container-cataratas section img {
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+.container-cataratas section p {
+    text-align: justify;
+    padding:   5px;
+}
+
+.inicio h1{
+    text-align: center;
+    margin: 25px 0;
+    
+}
+
+.inicio p {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.container-imagem h2{
+    text-align: center;
+    margin: 25px 0 ;
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pezinho {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.pezinho p {
+    color: aliceblue;
+}
+
+.container-cataratas section h1 {
+    padding: 25px; 
+    text-align: center;
+}
+
+.container-lago section h1 {
+    padding: 25px; 
+    text-align: center;
+}
+
+.container-montes section h1 {
+    padding: 25px; 
+    text-align: center;
+}
+
+    
+    
+
+
